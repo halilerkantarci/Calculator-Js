@@ -2,13 +2,13 @@ const ekran = document.querySelector(".ekran");
 const tuslar = document.querySelector(".tuslar");
 
 let ekranValue = "0";
+let first = null;
 
 tuslar.addEventListener("click", (e) => {
   const element = e.target;
 
   if (!element.matches("button")) return;
   if (element.classList.contains("operator")) {
-    updateEkran();
     return;
   }
 
