@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IOS CALCULATOR</title>
+    <title>IOS CALCULATOR With JS</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,25 +12,39 @@
       <!-- <div class="ekran"></div> -->
       <input type="text" class="ekran" value="" disabled />
       <div class="tuslar">
-        <div class="box row1-1"><button>AC</button></div>
+        <div class="box row1-1">
+          <button class="clear" value="clear">AC</button>
+        </div>
         <div class="box row1-2"><button>±</button></div>
         <div class="box row1-3"><button>%</button></div>
-        <div class="box row1-4 operator"><button>÷</button></div>
-        <div class="box row2-1"><button>7</button></div>
-        <div class="box row2-2"><button>8</button></div>
-        <div class="box row2-3"><button>9</button></div>
-        <div class="box row2-4 operator"><button>X</button></div>
-        <div class="box row3-1"><button>4</button></div>
-        <div class="box row3-2"><button>5</button></div>
-        <div class="box row3-3"><button>6</button></div>
-        <div class="box row3-4 operator"><button>-</button></div>
-        <div class="box row4-1"><button>1</button></div>
-        <div class="box row4-2"><button>2</button></div>
-        <div class="box row4-3"><button>3</button></div>
-        <div class="box row4-4 operator"><button>+</button></div>
-        <div class="box row5-1"><button>0</button></div>
-        <div class="box row5-2"><button>.</button></div>
-        <div class="box row5-3"><button>=</button></div>
+        <div class="box row1-4">
+          <button class="operator" value="/">÷</button>
+        </div>
+        <div class="box row2-1"><button value="7">7</button></div>
+        <div class="box row2-2"><button value="8">8</button></div>
+        <div class="box row2-3"><button value="9">9</button></div>
+        <div class="box row2-4">
+          <button class="operator" value="*">X</button>
+        </div>
+        <div class="box row3-1"><button value="4">4</button></div>
+        <div class="box row3-2"><button value="5">5</button></div>
+        <div class="box row3-3"><button value="6">6</button></div>
+        <div class="box row3-4">
+          <button class="operator" value="-">-</button>
+        </div>
+        <div class="box row4-1"><button value="1">1</button></div>
+        <div class="box row4-2"><button value="2">2</button></div>
+        <div class="box row4-3"><button value="3">3</button></div>
+        <div class="box row4-4">
+          <button class="operator" value="+">+</button>
+        </div>
+        <div class="box row5-1"><button value="0">0</button></div>
+        <div class="box row5-2">
+          <button class="decimal" value=".">.</button>
+        </div>
+        <div class="box row5-3">
+          <button class="operator" value="=">=</button>
+        </div>
       </div>
     </div>
     <script src="app.js"></script>

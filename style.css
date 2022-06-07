@@ -26,6 +26,7 @@
   background-color: var(--siyah);
   border: 1px solid var(--siyah);
   border-radius: 22px;
+  text-align: right;
 }
 .tuslar {
   display: grid;
